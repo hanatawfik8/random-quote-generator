@@ -16,16 +16,18 @@
         <div class="container">
             <h1 class="site-title">Quote of the day</h1>
             <p class="site-description">Press the button below to receive a random quote!</p>
-            <button type="button" class="quote-generator">Get a Quote</button>
-            <blockquote class="quote-container">
-                <p class="quote-text">"Lorem ipsum, dolor sit amet consectetur adipisicing elit."</p>
-                <cite class="quote-author">-- wayne gretzy</cite>
+            <button type="button" class="quote-generator" onclick="generateQuote()">Get a Quote</button>
+            <blockquote id="quote-container">
+                <p id="quote-text"></p>
+                <cite id="quote-author"></cite>
             </blockquote>
         </div>
     </main>
     <footer>
         Images by <a href="https://www.freepik.com/" target="_blank" class="link">Freepik</a>
     </footer>
+
+    <script src="./js/main.js"></script>
 </body>
 
 </html>
